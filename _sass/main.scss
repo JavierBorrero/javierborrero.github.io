@@ -1,0 +1,39 @@
+// Nav bar
+.current {
+  color: green;
+}
+
+nav {
+  font-size: 20px;
+  margin-top: 10px;
+
+  a {
+    margin-right: 20px;
+  }
+}
+
+// Fuente
+// .jetbrains-mono-font {
+//   font-family: "JetBrains Mono", monospace;
+//   font-optical-sizing: auto;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+.noto-sans-font {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+// Body
+.center-body {
+  width: 70%;
+  margin-inline: auto;
+}
+
+.project-list {
+  margin-left: 25px;
+}
