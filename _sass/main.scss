@@ -33,13 +33,17 @@ nav {
   margin-inline: auto;
 }
 
+.project-list {
+  margin-left: 25px;
+}
+
 @media (max-width: 768px) {
+  body {
+    font-size: 0.9em;
+  }
+
   .center-body {
     width: 90%;
     margin-inline: auto;
   }
-}
-
-.project-list {
-  margin-left: 25px;
 }
