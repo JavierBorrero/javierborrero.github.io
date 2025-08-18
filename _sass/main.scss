@@ -4,11 +4,10 @@
 }
 
 nav {
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 1.25em;
 
   a {
-    margin-right: 20px;
+    margin-right: 1em;
   }
 }
 
@@ -32,6 +31,13 @@ nav {
 .center-body {
   width: 70%;
   margin-inline: auto;
+}
+
+@media (max-width: 768px) {
+  .center-body {
+    width: 70%;
+    margin-inline: auto;
+  }
 }
 
 .project-list {
