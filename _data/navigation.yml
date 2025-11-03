@@ -1,6 +1,6 @@
-- name: Home
+- name: Inicio
   link: /
-- name: About
+- name: Enlaces
   link: /about.html
-- name: Projects
+- name: Proyectos
   link: /projects.html

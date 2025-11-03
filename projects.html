@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Projects
+title: Proyectos
 ---
 <h1>Mis proyectos</h1>
 <h2>CE Videojuegos y Realidad Virtual</h2>
-<li class="project-list">
+<ul class="project-list">
 {% for post in site.posts %}
-<a href="{{ post.url }}">{{ post.title }}</a>
+<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </li>
