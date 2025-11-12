@@ -5,7 +5,23 @@ title: Proyectos
 <h1>Mis proyectos</h1>
 <h2>CE Videojuegos y Realidad Virtual</h2>
 <ul class="project-list">
-{% for post in site.posts %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</li>
+    {% for project in site.projects %}
+	{% if project.category == "unity" %}
+	    <li>
+		<a href="{{ project.url }}">{{ project.title }}</a>
+		<p>{{ project.desc }}</p>
+	    </li>
+	{% endif %}
+    {% endfor %}
+</ul>
+<h2>Python</h2>
+<ul class="project-list">
+    {% for project in site.projects %}
+	{% if project.category == "python" %}
+	    <li>
+		<a href="{{ project.url }}">{{ project.title }}</a>
+		<p>{{ project.desc }}</p>
+	    </li>
+	{% endif %}
+    {% endfor %}
+</ul>
